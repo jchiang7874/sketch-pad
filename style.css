@@ -1,0 +1,64 @@
+body {
+			background-color: #fff;
+		}
+		h1 {
+		    position: absolute;
+		    z-index: 1;
+		    color: #FFEB3B;
+		    font-family: cursive;
+		}
+		#start {
+    		top: -5px;
+    		left: 340px;
+		}
+		#sketch {
+		    bottom: -13px;
+    		left: 400px;
+		}
+		#container {
+			background-color: red;
+			width: 900px;
+			height: 750px;
+			border-radius: 20px;
+			position: relative;
+			margin: 20px auto;
+		}
+		#sketch-screen {
+			background-color: #fff;
+		    border-radius: 5px;
+			position: absolute;
+			top: 11%;
+			left: 30%;
+			height: 85%;
+			width: 90%;
+			margin: -4% 0 0 -25%;
+			border: 2px solid #777676;
+		}
+		.grid-x, .grid-y {	
+			width: 5px;
+			height: 5px;
+		}
+		.grid-x {
+			display: inline-block;
+		}
+		.selected {
+			background-color: #777676;
+		}
+		button {
+			width: 55px;
+			height: 55px;
+			border-radius: 50%;
+			bottom: 6px;
+			background-color: #fff;
+			outline: none;
+			font-family: 'Inconsolata' ;
+			font-size: medium;
+		}
+		.left {
+			position: absolute;
+			left: 10px;
+		}
+		.right {
+			position: absolute;
+			right: 10px;
+		}
